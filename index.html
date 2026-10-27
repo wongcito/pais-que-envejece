@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Más abuelos que nietos</title>
+<meta name="description" content="Perú 2017–2025: en ocho años se triplicaron los distritos con más adultos mayores que niños. Un reportaje con datos de los Censos Nacionales.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,600;9..144,800&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <p class="kicker">Censos Nacionales 2017 · 2025</p>
+  <h1>Más abuelos<br>que nietos</h1>
+  <p class="dek">En ocho años, los distritos del Perú donde viven más adultos mayores que niños pasaron de <b class="mayores">229</b> a <b class="mayores">653</b>. El país que siempre se pensó joven está envejeciendo, y más rápido de lo que parece.</p>
+  <p class="scroll-cue" aria-hidden="true">Desliza ↓</p>
+</header>
+
+<!-- 1 · Los niños que faltan -->
+<section class="scrolly" id="s-puntos">
+  <div class="sticky"><canvas id="puntos" aria-label="Cada punto representa a 100 niños menores de 5 años"></canvas>
+    <div class="contador"><span id="contador-n">2 494 300</span><small>niños menores de 5 años</small></div>
+  </div>
+  <div class="steps">
+    <div class="step" data-step="0"><p>En 2017, el censo contó <b class="ninos">2 494 300</b> niñas y niños menores de 5 años. Cada punto de esta pantalla representa a 100 de ellos.</p></div>
+    <div class="step" data-step="1"><p>En 2025 eran <b class="ninos">2 013 720</b>. Faltan <b>480 580</b> niños: un <b>19 % menos</b>, aunque el país sumó 3,3 millones de habitantes.</p></div>
+    <div class="step" data-step="2"><p>En el otro extremo de la vida pasó lo contrario. Los mayores de 60 años pasaron de <b class="mayores">3,5</b> a <b class="mayores">4,8 millones</b>: un <b>38 % más</b>.</p></div>
+  </div>
+</section>
+
+<!-- 2 · La forma del país -->
+<section class="scrolly" id="s-piramide">
+  <div class="sticky"><figure class="fig-piramide">
+    <figcaption><span id="piramide-anio">2017</span> · Población por edad (% del total)</figcaption>
+    <svg id="piramide" role="img" aria-label="Pirámide de edades del Perú, 2017 y 2025"></svg>
+    <p class="leyenda"><i class="sw ninos"></i>0–14 años <i class="sw neutro"></i>15–59 <i class="sw mayores"></i>60 y más <i class="sw contorno"></i>2017</p>
+  </figure></div>
+  <div class="steps">
+    <div class="step" data-step="0"><p>Así se veía el Perú en 2017: una base ancha de niños y una cima delgada. Es la forma clásica de pirámide.</p></div>
+    <div class="step" data-step="1"><p>En 2025 la base se estrecha y la parte alta se ensancha. La pirámide se convierte en <b>jarrón</b>. El contorno blanco marca dónde estaba cada grupo en 2017.</p></div>
+    <div class="step" data-step="2"><p>Por cada 100 niños hay ahora <b class="mayores">65</b> adultos mayores. En 2017 había <b class="mayores">45</b>.</p></div>
+  </div>
+</section>
+
+<!-- 3 · El mapa -->
+<section class="scrolly" id="s-mapa">
+  <div class="sticky"><div id="mapa" role="img" aria-label="Mapa 3D del índice de envejecimiento por distrito"></div>
+    <div class="mapa-leyenda">
+      <span class="mapa-anio" id="mapa-anio">2017</span>
+      <div class="rampa"></div>
+      <div class="rampa-labels"><span>4 niños<br>por mayor</span><span>parejo</span><span>4 mayores<br>por niño</span></div>
+      <small>Altura = adultos mayores (60+) por cada niño (0–14)</small>
+    </div>
+  </div>
+  <div class="steps">
+    <div class="step" data-step="0"><p>Cada distrito se eleva según cuántos adultos mayores hay por cada niño. En <b>2017</b>, los distritos donde dominaban los mayores (en naranja) eran <b class="mayores">229</b>, casi todos pequeños y en la sierra.</p></div>
+    <div class="step" data-step="1"><p>En <b>2025</b> son <b class="mayores">653</b>. En ellos viven 4,6 millones de personas.</p></div>
+    <div class="step" data-step="2"><p>La sierra de Lima concentra varios de los casos extremos. En Sumbilca (Huaral) hay casi <b class="mayores">6 adultos mayores por cada niño</b>.</p></div>
+    <div class="step" data-step="3"><p>También envejece la Lima acomodada. <b>San Isidro</b> tiene 2,4 mayores por cada niño, y San Borja y Miraflores más de 2. Ya son <b class="mayores">19</b> los distritos de Lima Metropolitana con más abuelos que nietos.</p></div>
+    <div class="step" data-step="4"><p>El caso más extremo del país está a una hora de la ciudad de Arequipa: <b>Pocsi</b>.</p></div>
+  </div>
+</section>
+
+<!-- 4 · Pocsi -->
+<section class="prosa" id="s-pocsi">
+  <h2>Pocsi, el distrito más envejecido del Perú</h2>
+  <p>En Pocsi viven <b>6,4 adultos mayores por cada niño</b>. En 2017 eran 2,7. Pero no es un pueblo que se vacía: su población <b>casi se duplicó</b>, de 445 a 854 habitantes. Quienes llegaron, o regresaron, son sobre todo personas mayores.</p>
+  <div class="pocsi-piramides">
+    <figure><figcaption>2017 · 445 habitantes</figcaption><svg id="pocsi-17"></svg></figure>
+    <figure><figcaption>2025 · 854 habitantes</figcaption><svg id="pocsi-25"></svg></figure>
+  </div>
+  <p class="nota-reporteo">Pendiente de reporteo: ¿retorno de jubilados, segundas viviendas, efecto del día del censo?</p>
+</section>
+
+<!-- 5 · Por qué -->
+<section class="prosa" id="s-porque">
+  <h2>¿Por qué envejece el Perú?</h2>
+  <p>El mismo censo deja algunas pistas.</p>
+  <div class="tiles">
+    <div class="tile"><span class="tile-n">3,56 → 3,09</span><span class="tile-l">personas por hogar en promedio</span></div>
+    <div class="tile"><span class="tile-n">−19 %</span><span class="tile-l">niños menores de 5 años</span></div>
+    <div class="tile"><span class="tile-n">67,5 % → 65,9 %</span><span class="tile-l">mujeres de 12 años o más que tienen hijos</span></div>
+  </div>
+  <p>Los jóvenes también se van. De los distritos envejecidos, el <b>45 %</b> perdió población entre 2017 y 2025, frente al <b>28 %</b> del resto. Pero no es la única explicación: 362 de esos distritos crecieron.</p>
+  <figure class="fig-dispersion">
+    <figcaption>Cambio de población 2017–2025 frente a adultos mayores por niño en 2025 · cada punto es un distrito</figcaption>
+    <svg id="dispersion" role="img" aria-label="Dispersión: cambio de población frente a índice de envejecimiento por distrito"></svg>
+  </figure>
+</section>
+
+<!-- 6 · Tu distrito -->
+<section class="prosa" id="s-buscador">
+  <h2>¿Y tu distrito?</h2>
+  <label for="buscar">Escribe el nombre de tu distrito</label>
+  <input id="buscar" list="lista-distritos" placeholder="Ej. Miraflores, Lima, Lima" autocomplete="off">
+  <datalist id="lista-distritos"></datalist>
+  <div id="ficha" hidden>
+    <h3 id="ficha-nombre"></h3>
+    <div class="tiles">
+      <div class="tile"><span class="tile-n" id="ficha-indice"></span><span class="tile-l">adultos mayores por niño (2017 → 2025)</span></div>
+      <div class="tile"><span class="tile-n" id="ficha-pob"></span><span class="tile-l">habitantes (2017 → 2025)</span></div>
+      <div class="tile"><span class="tile-n" id="ficha-rank"></span><span class="tile-l">puesto en el ranking de envejecimiento</span></div>
+    </div>
+    <svg id="ficha-piramide" role="img" aria-label="Pirámide de edades del distrito"></svg>
+    <p class="leyenda"><i class="sw ninos"></i>0–14 <i class="sw neutro"></i>15–59 <i class="sw mayores"></i>60+ (2025) <i class="sw contorno"></i>2017</p>
+  </div>
+</section>
+
+<footer class="prosa metodo">
+  <h2>Metodología</h2>
+  <p><b>Fuente:</b> INEI, Censos Nacionales 2017 y 2025. Datos armonizados por distrito de <a href="https://censo-2025.appsbi.net">censo-2025.appsbi.net</a> (proyecto independiente de Oscar Salas). Límites distritales: <a href="https://github.com/juaneladio/peru-geojson">juaneladio/peru-geojson</a>.</p>
+  <p><b>Índice de envejecimiento:</b> personas de 60 años o más divididas entre las de 0 a 14 años. Un valor mayor que 1 indica que hay más adultos mayores que niños. Solo se comparan los 1 874 distritos que existían en 2017.</p>
+  <p><b>Limitaciones:</b> los datos comparables no cruzan edad con sexo, por eso las pirámides no distinguen hombres y mujeres. Los distritos creados después de la cartografía usada no tienen polígono propio en el mapa.</p>
+</footer>
+
+<div id="tooltip" role="tooltip" hidden></div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/scrollama@3.2.0/build/scrollama.min.js"></script>
+<script src="https://unpkg.com/deck.gl@8.9.35/dist.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
